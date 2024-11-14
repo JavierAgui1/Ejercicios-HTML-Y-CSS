@@ -1,0 +1,52 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#introduccion {
+    background-color: gray;
+}
+
+h1{
+    font-size: 20px;
+}
+
+h1.especial {
+    color: blue
+}
+
+h2 {
+    border: 1px solid orange;
+}
+
+h3 {
+    border: 1px solid orange;
+}
+
+ul > li {
+    color: red;
+}
+
+ul ul > li {
+    color: green;
+}
+
+p > img {
+    border: 5px solid black;
+}
+
+img[alt="segunda"] {
+    border: 5px solid red;
+}
+
+.segundoH3 {
+    background-color: whitesmoke;
+}
+
+
+h3:not(:last-of-type) {
+    background-color: pink;
+}
+
+h3:last-of-type {
+    background-color: blue;
+}
