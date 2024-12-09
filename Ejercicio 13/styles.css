@@ -1,0 +1,121 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+header {
+    color: #fff;
+    width: 100%;
+    background-color: #1f374e;
+    padding-bottom: 10px;
+}
+
+main {
+    display: flex; 
+    flex: 1;
+    padding: 50px;
+    align-items: center;
+    text-align: flex-center;
+    justify-content: center;
+}
+
+
+
+.logo-inicio {
+    margin-top: 10px;
+    display: flex;
+    align-items: center; 
+}
+
+.logotipo {
+    margin-right: 20px;
+    width: 50px;
+}
+
+.Links {
+    margin: 0px;
+    justify-content: flex-start;
+    border-top: 1px solid white;
+    list-style-type: none;
+    display: flex;
+    background-color: #466482;
+    padding: 0px;
+}
+
+.Links a {
+    padding: 5px;
+    margin: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+.cards {
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color: #1f374e;
+}
+
+.card p {
+    color: #333;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #0b122b;
+    color: #ffffff;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+    
+
+.footer{
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    font-style:inherit;
+}
+
+.redes-sociales img {
+    width: 24px;
+    margin: 0 10px;
+}
+
+address {
+    font-style: oblique;
+    color: #ffffff;
+}
