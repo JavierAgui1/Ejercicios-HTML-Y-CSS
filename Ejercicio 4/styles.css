@@ -1,0 +1,33 @@
+div#Trabajador1 {
+    background-color: grey;
+}
+
+
+h2#Trabajador1 {
+    color: blue;
+}
+
+
+div#Trabajador2 {
+    background-color: grey;
+}
+
+
+h2#Trabajador2 {
+    color: green;
+}
+
+
+div#datos {
+    border: 3px solid black;
+}
+
+
+div#estudios {
+    border: 3px solid black;
+}
+
+
+div#Datos {
+    border: 3px solid black;
+}
